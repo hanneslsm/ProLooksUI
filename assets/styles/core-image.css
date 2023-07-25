@@ -1,0 +1,21 @@
+/* Images
+--------------------------------------------- */
+
+.is-style-image-picture-frame img {
+  outline: 1px solid var(--wp--preset--color--neutral-30);
+  box-shadow: var(--wp--preset--shadow--shadow-lg);
+  border: 0.6em solid var(--wp--preset--color--neutral-20);
+
+  &:hover {
+    transform: rotate(-2deg);
+  }
+}
+
+.is-style-image-hover-zoom {
+  overflow: hidden;
+
+  & img:hover {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}

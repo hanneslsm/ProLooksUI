@@ -1,0 +1,13 @@
+/* Images
+--------------------------------------------- */
+
+.is-style-button-secondary {
+  & .wp-element-button {
+    background-color: var(--wp--preset--color--primary-50) !important;
+    color: var(--wp--preset--color--primary-120) !important;
+    border-bottom: 1px solid var(--wp--preset--color--primary-60);
+    &:hover {
+      background-color: var(--wp--preset--color--primary-60) !important;
+    }
+  }
+}
