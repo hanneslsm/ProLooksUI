@@ -1,0 +1,33 @@
+/* List
+--------------------------------------------- */
+
+.is-style-list-recipe {
+  position: relative;
+  padding: 0;
+  border: 1px solid var(--wp--preset--color--neutral-60);
+  border-radius: 6px;
+  box-shadow: var(--wp--preset--shadow--shadow-sm);
+  list-style: none;
+  font-family: monospace;
+  line-height: 3;
+  background-color: var(--wp--preset--color--neutral-10);
+  & li {
+    padding-left: 3em;
+    border-bottom: 1px dotted var(--wp--preset--color--neutral-60);
+    &:hover {
+      background-color: var(--wp--preset--color--neutral-20);
+    }
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  /* Notebook Lines */
+  &:before {
+    position: absolute;
+    left: 1.5em;
+    z-index: 1;
+    height: 100%;
+    border-right: 3px double #e13940;
+    content: "";
+  }
+}

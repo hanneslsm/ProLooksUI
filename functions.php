@@ -44,6 +44,9 @@ function register_block_styles()
         'core/button'                    => array(
             'button-secondary' => __('Secondary', 'prolooks')
         ),
+        'core/list'                    => array(
+            'list-recipe' => __('Recipe', 'prolooks'),
+        ),
         'core/table'                    => array(
             'table-dashed' => __('dashed', 'prolooks'),
         ),
