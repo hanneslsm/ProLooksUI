@@ -12,9 +12,9 @@
       "duotone": [],
       "gradients": [
         {
+          "gradient": "radial-gradient(var(--wp--preset--color--primary-60) 44.9%, var(--wp--preset--color--primary-40) 45%, var(--wp--preset--color--primary-40) 59.9%, transparent 60%)",
           "name": "Circle Primary",
-          "slug": "circle-primary",
-          "gradient": "radial-gradient(var(--wp--preset--color--primary-60) 44.9%, var(--wp--preset--color--primary-40) 45%, var(--wp--preset--color--primary-40) 59.9%, transparent 60%)"
+          "slug": "circle-primary"
         }
       ],
       "palette": [
@@ -530,7 +530,7 @@
           "bottom": {
             "color": "var(--wp--preset--color--primary-100)",
             "style": "solid",
-            "width": "1px"
+            "width": "2px"
           },
           "radius": "8px",
           "top": {
@@ -538,22 +538,19 @@
             "style": "solid",
             "width": "1px"
           }
+        },
+        "spacing": {
+          "padding": {
+            "bottom": "10px",
+            "left": "var(--wp--preset--spacing--static-24)",
+            "right": "var(--wp--preset--spacing--static-24)",
+            "top": "10px"
+          }
         }
       },
       "core/navigation": {
         "elements": {
           "link": {
-            "typography": {
-              "lineHeight": "2",
-              "textDecoration": "none"
-            },
-            "border": {
-              "bottom": {
-                "color": "transparent",
-                "style": "solid",
-                "width": "2px"
-              }
-            },
             ":hover": {
               "border": {
                 "bottom": {
@@ -562,6 +559,17 @@
                   "width": "2px"
                 }
               }
+            },
+            "border": {
+              "bottom": {
+                "color": "transparent",
+                "style": "solid",
+                "width": "2px"
+              }
+            },
+            "typography": {
+              "lineHeight": "2",
+              "textDecoration": "none"
             }
           }
         }
@@ -650,5 +658,5 @@
     }
   },
   "version": 2,
-  "$schema": "https://schemas.wp.org/trunk/theme.json"
+  "$schema": "https://schemas.wp.org/wp/6.3/theme.json"
 }
