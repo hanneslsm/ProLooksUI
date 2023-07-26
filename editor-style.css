@@ -8,3 +8,13 @@
   padding: 0.1em 0em;
   margin-bottom: 2em;
 }
+
+/* EXPERIMENTAL */
+
+/* Show blocks for easier editing */
+@media screen and (min-width: 1024px) {
+  .wp-block:hover .wp-block {
+    outline: 1px dotted
+      color-mix(in srgb, var(--wp-admin-theme-color) 20%, transparent);
+  }
+}
