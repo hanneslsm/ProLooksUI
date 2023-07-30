@@ -227,6 +227,16 @@
 					"color": "#000",
 					"name": "Dark",
 					"slug": "dark"
+				},
+				{
+					"color": "#fff",
+					"name": "Background",
+					"slug": "background"
+				},
+				{
+					"color": "#262626",
+					"name": "Text",
+					"slug": "text"
 				}
 			],
 			"text": true
@@ -589,8 +599,8 @@
 			}
 		},
 		"color": {
-			"background": "var(--wp--preset--color--light)",
-			"text": "var(--wp--preset--color--dark)"
+			"background": "var(--wp--preset--color--background)",
+			"text": "var(--wp--preset--color--text)"
 		},
 		"elements": {
 			"button": {
