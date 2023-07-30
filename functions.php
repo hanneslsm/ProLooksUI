@@ -22,15 +22,21 @@ if (!function_exists('prolooksui_setup')) :
 
         // Remove core block patterns.
         remove_theme_support('core-block-patterns');
-
-        // Enqueue style.css
-        wp_enqueue_style('wp-styles', get_stylesheet_uri());
-
-        // Enqueue editor styles.
-        add_editor_style('editor-style.css');
     }
 endif; // prolooksui_setup
 add_action('after_setup_theme', 'prolooksui_setup');
+
+/* Styles
+*/
+function my_enqueue_styles()
+{
+    // Enqueue style.css
+    wp_enqueue_style('wp-styles', get_stylesheet_uri());
+
+    // Enqueue editor styles.
+    add_editor_style('editor-style.css');
+}
+add_action('wp_enqueue_scripts', 'my_enqueue_styles');
 
 
 
