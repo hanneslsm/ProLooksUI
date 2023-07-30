@@ -27,7 +27,7 @@
           "slug": "circle-primary"
         },
         {
-          "gradient": "linear-gradient(180deg, var(--wp--preset--color--dark-25) 85%, var(--wp--preset--color--background) 100%)",
+          "gradient": "linear-gradient(180deg, var(--wp--preset--color--dark-25) 85%, var(--wp--preset--color--light) 100%)",
           "name": "Cover",
           "slug": "cover"
         }
@@ -272,11 +272,6 @@
           "color": "transparent",
           "name": "Transparent",
           "slug": "transparent"
-        },
-        {
-          "color": "#fff",
-          "name": "Background",
-          "slug": "background"
         }
       ],
       "text": true
