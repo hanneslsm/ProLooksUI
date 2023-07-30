@@ -323,8 +323,8 @@
 
 <!-- wp:columns {"isStackedOnMobile":false,"align":"full","style":{"spacing":{"blockGap":{"left":"0"}}}} -->
 <div class="wp-block-columns alignfull is-not-stacked-on-mobile"><!-- wp:column {"width":"33.34%","style":{"spacing":{"padding":{"right":"0","left":"0"}}}} -->
-<div class="wp-block-column" style="padding-right:0;padding-left:0;flex-basis:33.34%"><!-- wp:image {"align":"center","id":95,"aspectRatio":"3/2","scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-image-hover-zoom"} -->
-<figure class="wp-block-image aligncenter size-large is-style-image-hover-zoom"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/michael-oxendine-GHCVUtBECuY-unsplash-683x1024.jpg" alt="" class="wp-image-95" style="aspect-ratio:3/2;object-fit:cover"/></figure>
+<div class="wp-block-column" style="padding-right:0;padding-left:0;flex-basis:33.34%"><!-- wp:image {"align":"center","id":95,"aspectRatio":"3/2","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-image-hover-zoom"} -->
+<figure class="wp-block-image aligncenter size-full is-style-image-hover-zoom"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/michael-oxendine-GHCVUtBECuY-unsplash-scaled.jpg" alt="" class="wp-image-95" style="aspect-ratio:3/2;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
@@ -335,8 +335,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"33.33%","style":{"spacing":{"padding":{"right":"0","left":"0"}}}} -->
-<div class="wp-block-column" style="padding-right:0;padding-left:0;flex-basis:33.33%"><!-- wp:image {"align":"center","id":94,"aspectRatio":"3/2","scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-image-hover-zoom"} -->
-<figure class="wp-block-image aligncenter size-large is-style-image-hover-zoom"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/collov-home-design-HmHArS-HvNw-unsplash-1024x768.jpg" alt="" class="wp-image-94" style="aspect-ratio:3/2;object-fit:cover"/></figure>
+<div class="wp-block-column" style="padding-right:0;padding-left:0;flex-basis:33.33%"><!-- wp:image {"align":"center","id":94,"aspectRatio":"3/2","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-image-hover-zoom"} -->
+<figure class="wp-block-image aligncenter size-full is-style-image-hover-zoom"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/collov-home-design-HmHArS-HvNw-unsplash-scaled.jpg" alt="" class="wp-image-94" style="aspect-ratio:3/2;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
