@@ -27,7 +27,7 @@
           "slug": "circle-primary"
         },
         {
-          "gradient": "linear-gradient(180deg, var(--wp--preset--color--opacity-25) 85%, var(--wp--preset--color--background) 100%)",
+          "gradient": "linear-gradient(180deg, var(--wp--preset--color--dark-25) 85%, var(--wp--preset--color--background) 100%)",
           "name": "Cover",
           "slug": "cover"
         }
@@ -215,23 +215,23 @@
         },
         {
           "color": "#FFFFFF1A",
-          "name": "Opactiy 10%",
-          "slug": "opacity-10"
+          "name": "Light 10%",
+          "slug": "light-10"
         },
         {
           "color": "#FFFFFF40",
-          "name": "Opactiy 25%",
-          "slug": "opacity-25"
+          "name": "Light 25%",
+          "slug": "light-25"
         },
         {
           "color": "#FFFFFF80",
-          "name": "Opactiy 50%",
-          "slug": "opacity-50"
+          "name": "Light 50%",
+          "slug": "light-50"
         },
         {
           "color": "#FFFFFFBF",
-          "name": "Opactiy 75%",
-          "slug": "opacity-75"
+          "name": "Light 75%",
+          "slug": "light-75"
         },
         {
           "color": "#fff",
@@ -239,9 +239,44 @@
           "slug": "light"
         },
         {
+          "color": "transparent",
+          "name": "Transparent",
+          "slug": "transparent"
+        },
+        {
+          "color": "#0000001A",
+          "name": "Dark 10%",
+          "slug": "dark-10"
+        },
+        {
+          "color": "#00000040",
+          "name": "Dark 25%",
+          "slug": "dark-25"
+        },
+        {
+          "color": "#00000080",
+          "name": "Dark 50%",
+          "slug": "dark-50"
+        },
+        {
+          "color": "#000000BF",
+          "name": "Dark 75%",
+          "slug": "dark-75"
+        },
+        {
           "color": "#000",
           "name": "Dark",
           "slug": "dark"
+        },
+        {
+          "color": "transparent",
+          "name": "Transparent",
+          "slug": "transparent"
+        },
+        {
+          "color": "#fff",
+          "name": "Background",
+          "slug": "background"
         }
       ],
       "text": true
@@ -549,7 +584,7 @@
           },
           "radius": "8px",
           "top": {
-            "color": "var(--wp--preset--color--opacity-25)",
+            "color": "var(--wp--preset--color--light-25)",
             "style": "solid",
             "width": "1px"
           }
