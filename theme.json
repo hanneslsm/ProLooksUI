@@ -25,6 +25,11 @@
           "gradient": "radial-gradient(var(--wp--preset--color--primary-60) 44.9%, var(--wp--preset--color--primary-40) 45%, var(--wp--preset--color--primary-40) 59.9%, transparent 60%)",
           "name": "Circle Primary",
           "slug": "circle-primary"
+        },
+        {
+          "gradient": "linear-gradient(180deg, var(--wp--preset--color--opacity-25) 85%, var(--wp--preset--color--background) 100%)",
+          "name": "Cover",
+          "slug": "cover"
         }
       ],
       "palette": [
