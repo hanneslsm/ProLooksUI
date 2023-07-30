@@ -6,8 +6,8 @@
  * Inserter: no
  */
 ?>
-<!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/adam-davis-4mlWDd_zezI-unsplash-scaled.jpg","id":89,"minHeight":80,"minHeightUnit":"vh","customGradient":"linear-gradient(0deg,rgb(255,255,255) 0%,rgba(0,0,0,0.27) 19%)","style":{"spacing":{"padding":{"top":"var:preset|spacing|fluid-3-xl","bottom":"var:preset|spacing|fluid-3-xl"}}},"textColor":"light","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover has-light-color has-text-color" style="padding-top:var(--wp--preset--spacing--fluid-3-xl);padding-bottom:var(--wp--preset--spacing--fluid-3-xl);min-height:80vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim wp-block-cover__gradient-background has-background-gradient" style="background:linear-gradient(0deg,rgb(255,255,255) 0%,rgba(0,0,0,0.27) 19%)"></span><img class="wp-block-cover__image-background wp-image-89" alt="" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/adam-davis-4mlWDd_zezI-unsplash-scaled.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|fluid-lg"}},"layout":{"type":"constrained"}} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/adam-davis-4mlWDd_zezI-unsplash-scaled.jpg","id":89,"minHeight":80,"minHeightUnit":"vh","customGradient":"linear-gradient(0deg,rgb(0,0,0) 0%,rgba(255,255,255,0.27) 19%)","style":{"spacing":{"padding":{"top":"var:preset|spacing|fluid-3-xl","bottom":"var:preset|spacing|fluid-3-xl"}}},"textColor":"light","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover has-light-color has-text-color" style="padding-top:var(--wp--preset--spacing--fluid-3-xl);padding-bottom:var(--wp--preset--spacing--fluid-3-xl);min-height:80vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim wp-block-cover__gradient-background has-background-gradient" style="background:linear-gradient(0deg,rgb(0,0,0) 0%,rgba(255,255,255,0.27) 19%)"></span><img class="wp-block-cover__image-background wp-image-89" alt="" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/adam-davis-4mlWDd_zezI-unsplash-scaled.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|fluid-lg"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group alignwide"><!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600","letterSpacing":"1px"}},"textColor":"primary-60","fontSize":"paragraph-sm"} -->
 <p class="has-text-align-center has-primary-60-color has-text-color has-paragraph-sm-font-size" style="font-style:normal;font-weight:600;letter-spacing:1px;text-transform:uppercase">everything you need</p>
@@ -227,8 +227,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:cover {"overlayColor":"secondary-20","contentPosition":"center center","isDark":false,"style":{"spacing":{"padding":{"top":"var:preset|spacing|fluid-xxl","bottom":"var:preset|spacing|fluid-16-64","left":"0","right":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover is-light" style="padding-top:var(--wp--preset--spacing--fluid-xxl);padding-right:0;padding-bottom:var(--wp--preset--spacing--fluid-16-64);padding-left:0"><span aria-hidden="true" class="wp-block-cover__background has-secondary-20-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-group"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|fluid-xl","right":"var:preset|spacing|default","bottom":"var:preset|spacing|fluid-xxl","left":"var:preset|spacing|default"}}},"backgroundColor":"secondary-20","textColor":"light","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide has-light-color has-secondary-20-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--fluid-xl);padding-right:var(--wp--preset--spacing--default);padding-bottom:var(--wp--preset--spacing--fluid-xxl);padding-left:var(--wp--preset--spacing--default)"><!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|static-8","padding":{"right":"0","left":"0"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group" style="padding-right:0;padding-left:0"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600","letterSpacing":"1px"}},"textColor":"primary-110","fontSize":"paragraph-sm"} -->
@@ -260,12 +260,12 @@
 <figure class="wp-block-image aligncenter size-large is-resized is-style-rounded"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/collov-home-design-HmHArS-HvNw-unsplash-1024x768.jpg" alt="" class="wp-image-94" style="aspect-ratio:3/2;object-fit:cover;height:400px" height="400"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns --></div></div>
-<!-- /wp:cover -->
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
 
 <!-- wp:group {"style":{"color":{"gradient":"linear-gradient(0deg,rgb(254,254,255) 51%,rgb(255,249,237) 51%)"},"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"720px","wideSize":"1000px"}} -->
-<div class="wp-block-group has-background" style="background:linear-gradient(0deg,rgb(254,254,255) 51%,rgb(255,249,237) 51%);margin-top:0;margin-bottom:0"><!-- wp:columns {"isStackedOnMobile":false,"style":{"border":{"bottom":{"color":"var:preset|color|secondary-30","width":"2px"}}},"backgroundColor":"light"} -->
-<div class="wp-block-columns is-not-stacked-on-mobile has-light-background-color has-background" style="border-bottom-color:var(--wp--preset--color--secondary-30);border-bottom-width:2px"><!-- wp:column {"style":{"spacing":{"blockGap":"0"}}} -->
+<div class="wp-block-group has-background" style="background:linear-gradient(0deg,rgb(254,254,255) 51%,rgb(255,249,237) 51%);margin-top:0;margin-bottom:0"><!-- wp:columns {"isStackedOnMobile":false,"style":{"border":{"bottom":{"color":"var:preset|color|secondary-30","width":"2px"}}},"backgroundColor":"secondary-10","textColor":"dark"} -->
+<div class="wp-block-columns is-not-stacked-on-mobile has-dark-color has-secondary-10-background-color has-text-color has-background" style="border-bottom-color:var(--wp--preset--color--secondary-30);border-bottom-width:2px"><!-- wp:column {"style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column"><!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1","fontStyle":"normal","fontWeight":"400"}},"fontSize":"display-lg"} -->
 <p class="has-text-align-center has-display-lg-font-size" style="font-style:normal;font-weight:400;line-height:1">90%</p>
 <!-- /wp:paragraph -->
@@ -298,11 +298,11 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0","padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"backgroundColor":"neutral-10","layout":{"type":"default"}} -->
-<div class="wp-block-group alignfull has-neutral-10-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:cover {"dimRatio":0,"minHeight":400,"isDark":false,"style":{"spacing":{"padding":{"bottom":"clamp(32px, 4vw, 48px)","top":"var:preset|spacing|fluid-xxl"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover is-light" style="padding-top:var(--wp--preset--spacing--fluid-xxl);padding-bottom:clamp(32px, 4vw, 48px);min-height:400px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|fluid-lg"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"lineHeight":"1.2","letterSpacing":"-2px"}},"fontSize":"display-lg"} -->
-<h1 class="wp-block-heading has-text-align-center has-display-lg-font-size" style="letter-spacing:-2px;line-height:1.2">The easiest way to build <mark style="background-color:#e4f7c7" class="has-inline-color has-primary-100-color">beautiful websites</mark> with Gutenberg</h1>
+<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0","padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|fluid-lg","padding":{"top":"var:preset|spacing|fluid-xxl","right":"var:preset|spacing|default","bottom":"var:preset|spacing|fluid-xxl","left":"var:preset|spacing|default"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--fluid-xxl);padding-right:var(--wp--preset--spacing--default);padding-bottom:var(--wp--preset--spacing--fluid-xxl);padding-left:var(--wp--preset--spacing--default)"><!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"lineHeight":"1.2","letterSpacing":"-2px"}},"fontSize":"display-lg"} -->
+<h1 class="wp-block-heading has-text-align-center has-display-lg-font-size" style="letter-spacing:-2px;line-height:1.2">The easiest way to build <mark style="background-color:#e4f7c7;color:#263209" class="has-inline-color">beautiful websites</mark> with Gutenberg</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"neutral-90","fontSize":"heading-6"} -->
@@ -318,8 +318,8 @@
 <div class="wp-block-button is-style-button-secondary"><a class="wp-block-button__link wp-element-button">Learn more →</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
-<!-- /wp:group --></div></div>
-<!-- /wp:cover -->
+<!-- /wp:group --></div>
+<!-- /wp:group -->
 
 <!-- wp:columns {"isStackedOnMobile":false,"align":"full","style":{"spacing":{"blockGap":{"left":"0"}}}} -->
 <div class="wp-block-columns alignfull is-not-stacked-on-mobile"><!-- wp:column {"width":"33.34%","style":{"spacing":{"padding":{"right":"0","left":"0"}}}} -->
@@ -385,14 +385,13 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"right":"clamp(16px,6vw,96px)","left":"clamp(16px,6vw,96px)","top":"var:preset|spacing|fluid-16-96","bottom":"var:preset|spacing|fluid-16-96"}}},"layout":{"type":"constrained","contentSize":"","justifyContent":"left"}} -->
-<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--fluid-16-96);padding-right:clamp(16px,6vw,96px);padding-bottom:var(--wp--preset--spacing--fluid-16-96);padding-left:clamp(16px,6vw,96px)"><!-- wp:heading {"textAlign":"left","align":"wide","style":{"typography":{"lineHeight":"1.2","letterSpacing":"-2px"}},"fontSize":"display-xl"} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|default","right":"var:preset|spacing|fluid-16-64","bottom":"var:preset|spacing|default","left":"var:preset|spacing|fluid-16-64"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--default);padding-right:var(--wp--preset--spacing--fluid-16-64);padding-bottom:var(--wp--preset--spacing--default);padding-left:var(--wp--preset--spacing--fluid-16-64)"><!-- wp:heading {"textAlign":"left","align":"wide","style":{"typography":{"lineHeight":"1.2","letterSpacing":"-2px"}},"fontSize":"display-xl"} -->
 <h2 class="wp-block-heading alignwide has-text-align-left has-display-xl-font-size" style="letter-spacing:-2px;line-height:1.2">The <mark style="background-color:#f7fcf0" class="has-inline-color has-primary-100-color">future</mark> of Wordpress Gutenberg</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
-<!-- wp:cover {"dimRatio":0,"isDark":false,"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-cover is-light" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":93,"height":400,"aspectRatio":"3/4","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
@@ -456,6 +455,5 @@
 <figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/michael-oxendine-GHCVUtBECuY-unsplash-683x1024.jpg" alt="" class="wp-image-95"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group --></div></div>
-<!-- /wp:cover --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
