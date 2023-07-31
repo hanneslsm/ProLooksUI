@@ -43,4 +43,4 @@ Leverage ProLooksUI as the foundation to craft beautiful websites using the Word
 
 #### Regular Updates & Support
 
-Regular theme updates to ensure compatibility with the latest WordPress versions and prompt customer support for any issues or queries.
+- Regular theme updates to ensure compatibility with the latest WordPress versions and prompt customer support for any issues or queries.
