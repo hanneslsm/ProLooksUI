@@ -56,3 +56,33 @@ html {
 .nowrap {
   white-space: nowrap;
 }
+
+/*
+** Experimental:
+*/
+.scroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  cursor: grab;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  min-height: 50vh;
+  & > * {
+    scroll-snap-align: center;
+  }
+  & .wp-block-image {
+    min-width: 500px;
+  }
+  & .size-medium {
+    min-width: 200px;
+  }
+  & .size-thumbnail {
+    min-width: 150px;
+  }
+
+  & > p {
+    white-space: normal;
+    min-width: 400px;
+  }
+}

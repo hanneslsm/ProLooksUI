@@ -28,7 +28,7 @@ add_action('after_setup_theme', 'prolooksui_setup');
 
 /* Styles
 */
-function my_enqueue_styles()
+function prolooksui_enqueue_styles()
 {
     // Enqueue style.css
     wp_enqueue_style('wp-styles', get_stylesheet_uri());
@@ -36,9 +36,16 @@ function my_enqueue_styles()
     // Enqueue editor styles.
     add_editor_style('editor-style.css');
 }
-add_action('wp_enqueue_scripts', 'my_enqueue_styles');
+add_action('wp_enqueue_scripts', 'prolooksui_enqueue_styles');
 
 
+/* Scripts
+*/
+function prolooksui_enqueue_scripts()
+{
+    wp_enqueue_script('scroll', get_template_directory_uri() . '/assets/scripts/scroll.js', '1.0.0', array(''), '1.0.0', true);
+}
+add_action('wp_enqueue_scripts', 'prolooksui_enqueue_scripts');
 
 /**
  * Add block styles.
