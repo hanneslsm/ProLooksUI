@@ -43,7 +43,7 @@ add_action('wp_enqueue_scripts', 'prolooksui_enqueue_styles');
 */
 function prolooksui_enqueue_scripts()
 {
-    wp_enqueue_script('scroll', get_template_directory_uri() . '/assets/scripts/scroll.js', '1.0.0', array(''), '1.0.0', true);
+    wp_enqueue_script('scroll', get_template_directory_uri() . '/assets/scripts/core-group-slider.js', '1.0.0', array(''), '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'prolooksui_enqueue_scripts');
 
@@ -56,6 +56,9 @@ function register_block_styles()
     $block_styles = array(
         'core/button'                    => array(
             'button-secondary' => __('Secondary', 'prolooks')
+        ),
+        'core/group'                    => array(
+            'group-slider' => __('Horizontal Scroll', 'prolooks'),
         ),
         'core/list'                    => array(
             'list-recipe' => __('Recipe', 'prolooks'),

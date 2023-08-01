@@ -1,0 +1,29 @@
+/* Group
+--------------------------------------------- */
+
+/*
+** Experimental:
+*/
+.is-style-group-slider {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  cursor: grab;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  scroll-behavior: smooth;
+  min-height: 50vh;
+  & > * {
+    min-width: fit-content;
+  }
+  & .size-medium {
+    min-width: 200px;
+  }
+  & .size-thumbnail {
+    min-width: 150px;
+  }
+
+  & > p {
+    white-space: normal;
+    min-width: 400px;
+  }
+}

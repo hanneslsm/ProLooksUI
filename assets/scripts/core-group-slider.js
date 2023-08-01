@@ -2,7 +2,7 @@
  * inspired by https://htmldom.dev/drag-to-scroll/
  */
 
-const ele = document.getElementsByClassName("scroll")[0];
+const ele = document.getElementsByClassName("is-style-group-slider")[0];
 
 let pos = { top: 0, left: 0, x: 0, y: 0 };
 
