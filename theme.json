@@ -622,7 +622,7 @@
     },
     "color": {
       "background": "var(--wp--preset--color--light)",
-      "text": "var(--wp--preset--color--primary-120)"
+      "text": "var(--wp--preset--color--neutral-120)"
     },
     "elements": {
       "button": {
