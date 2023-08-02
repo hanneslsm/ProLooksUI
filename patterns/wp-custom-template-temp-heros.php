@@ -81,7 +81,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"clamp(16px,6vw,96px)","left":"clamp(16px,6vw,96px)","top":"var:preset|spacing|fluid-16-96","bottom":"var:preset|spacing|fluid-16-96"}}},"backgroundColor":"primary-20","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-primary-20-background-color has-background" style="padding-top:var(--wp--preset--spacing--fluid-16-96);padding-right:clamp(16px,6vw,96px);padding-bottom:var(--wp--preset--spacing--fluid-16-96);padding-left:clamp(16px,6vw,96px)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|fluid-xl"}}}} -->
+<div class="wp-block-group has-primary-20-background-color has-background" style="padding-top:var(--wp--preset--spacing--fluid-16-96);padding-right:clamp(16px,6vw,96px);padding-bottom:var(--wp--preset--spacing--fluid-16-96);padding-left:clamp(16px,6vw,96px)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|fluid-16-96","left":"var:preset|spacing|fluid-16-96"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"bottom"} -->
 <div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:image {"id":93,"aspectRatio":"3/4","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
 <figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/prince-akachi-4Yv84VgQkRM-unsplash-683x1024.jpg" alt="" class="wp-image-93" style="aspect-ratio:3/4;object-fit:cover"/></figure>
