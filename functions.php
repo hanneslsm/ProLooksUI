@@ -106,3 +106,22 @@ function enqueue_custom_block_styles()
     }
 }
 add_action('init', 'enqueue_custom_block_styles');
+
+
+/**
+ * Register custom pattern categories
+ */
+if ( function_exists( 'register_block_pattern_category' ) ) {
+    register_block_pattern_category(
+      'hero',
+      array(
+            'label' => __( 'Heros', 'text-domain' ),
+            'description' => __( 'Sections that prominently display information', 'text-domain' ),
+      ),
+      'hero',
+      array(
+            'label' => __( 'Heros', 'text-domain' ),
+            'description' => __( 'Sections that prominently display information', 'text-domain' ),
+      ),
+   );
+}
