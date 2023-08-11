@@ -9,7 +9,7 @@
 
 
 /**
- * Stylesheets
+ * Enqueue Stylesheets
 */
 function my_enqueue_styles()
 {

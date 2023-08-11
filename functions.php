@@ -6,15 +6,15 @@
  * @since 1.0
  */
 
-/**
- * Setup
- */
+
+// Setup
 require get_template_directory() . '/inc/setup.php';
-/**
- * Enqueue files
- */
+
+// Enqueue files
 require get_template_directory() . '/inc/enqueuing.php';
-/**
- * Add block styles
- */
+
+// Block styles
 require get_template_directory() . '/inc/block-styles.php';
+
+// Pattern categories
+require get_template_directory() . '/inc/pattern-categories.php';

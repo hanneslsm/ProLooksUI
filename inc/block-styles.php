@@ -1,6 +1,6 @@
 <?php
 /**
- * Register block styles
+ * Block styles
  * 
  * @package prolooksui
  * @since 1.0
@@ -8,7 +8,7 @@
 
 
  /** 
- * Add block styles
+ * Register block styles
  */
 function register_block_styles()
 {

@@ -47,3 +47,11 @@ License: GPL v2
 License URL: https://github.com/OllieWP/ollie/blob/main/LICENSE
 Source: https://github.com/OllieWP
 -- End of OllieWP credits --
+
+Images
+All images and photos are by Milad Fakurian
+1. /assets/images
+License: Unsplash License
+License URL: https://unsplash.com/license
+Source: https://unsplash.com/@fakurian
+-- End of Images credits --
