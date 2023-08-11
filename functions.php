@@ -6,7 +6,8 @@
  * @since 1.0
  */
 
-/* * Setup
+/**
+ * Setup
  */
 require get_template_directory() . '/inc/setup.php';
 /**
