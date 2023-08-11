@@ -27,7 +27,7 @@
           "slug": "circle-primary"
         },
         {
-          "gradient": "linear-gradient(180deg, var(--wp--preset--color--dark-25) 85%, var(--wp--preset--color--light) 100%)",
+          "gradient": "linear-gradient(180deg, var(--wp--preset--color--dark-50) 85%, var(--wp--preset--color--light) 100%)",
           "name": "Cover",
           "slug": "cover"
         }
@@ -508,7 +508,7 @@
         {
           "fluid": {
             "max": "18px",
-            "min": "17px"
+            "min": "18px"
           },
           "name": "Heading 6",
           "size": "18px",
@@ -586,10 +586,10 @@
         },
         "spacing": {
           "padding": {
-            "bottom": "10px",
+            "bottom": "var(--wp--preset--spacing--static-8)",
             "left": "var(--wp--preset--spacing--static-24)",
             "right": "var(--wp--preset--spacing--static-24)",
-            "top": "10px"
+            "top": "var(--wp--preset--spacing--static-8)"
           }
         }
       },
