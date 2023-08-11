@@ -80,10 +80,12 @@ echo esc_url( get_theme_file_uri('assets/images/placeholder-a.jpg') ); ?>" alt="
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"right"}} -->
-<div class="wp-block-group"><!-- wp:image {"id":2,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php
-echo esc_url( get_theme_file_uri('assets/images/placeholder-b.jpg') ); ?>" alt="Placeholer Image" class="wp-image-2"/></figure>
-<!-- /wp:image --></div>
+<div class="wp-block-group">
+<!-- wp:image {"id":2,"width":680,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized"><img src="<?php
+echo esc_url( get_theme_file_uri('assets/images/placeholder-b.jpg') ); ?>" alt="Placeholer Image" class="wp-image-2" style="width:680px" width="680"/></figure>
+<!-- /wp:image -->
+</div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
